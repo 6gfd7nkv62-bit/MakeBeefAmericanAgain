@@ -52,12 +52,12 @@ ol.points span{color:#4a453d;font-size:16px}
 .act p{color:#b9c2d0;max-width:620px;margin:0 auto 26px;font-size:17px;font-family:Arial,sans-serif}
 footer{background:#0e1826;color:#8a94a3;font-family:Arial,sans-serif;font-size:13px;padding:26px 0}
 footer a{color:#ff6b6b;text-decoration:none}
-</style>
+.signup{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:540px;margin:0 auto 14px}.signup input[type=email]{flex:1 1 250px;padding:14px 16px;border:2px solid #fff;border-radius:3px;font-size:16px;font-family:Arial,sans-serif;color:#12100e}.signup button{background:var(--red);color:#fff;border:2px solid var(--red);border-radius:3px;padding:14px 26px;font-size:15px;font-weight:700;font-family:Arial,sans-serif;cursor:pointer}.signup button:hover{background:#8f0e1e;border-color:#8f0e1e}.fine{font-family:Arial,sans-serif;font-size:12.5px;color:#8b95a3;margin-bottom:24px}.btn.lite{background:transparent;color:#fff;border:2px solid #fff}</style>
 </head>
 <body>
 <header><div class="wrap nav">
 <div class="brand">Make <span>Beef</span> American Again</div>
-<a class="btn" href="https://buy.stripe.com/cNi14m89h7G93lpenX6EU03" target="_blank" rel="noopener">Donate</a>
+<div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn lite" href="#action">Get Updates</a><a class="btn" href="https://buy.stripe.com/cNi14m89h7G93lpenX6EU03" target="_blank" rel="noopener">Donate</a></div>
 </div></header>
 <div class="hero"><div class="wrap">
 <div class="eyebrow">A letter from American cattle producers</div>
@@ -111,7 +111,7 @@ footer a{color:#ff6b6b;text-decoration:none}
 <div class="act" id="action"><div class="wrap">
 <h2>Add your name</h2>
 <p>If you raise cattle, process beef, or simply want to know where your food comes from, add your name to this letter.</p>
-<div class="btns" style="justify-content:center"><a class="btn" href="mailto:iantrottier2@gmail.com?subject=Add%20my%20name%20to%20the%20beef%20labeling%20letter">Add your name</a><a class="btn" style="background:transparent;border:2px solid #ffffff" href="https://buy.stripe.com/cNi14m89h7G93lpenX6EU03" target="_blank" rel="noopener">Donate</a></div>
+<form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/iantrottier" method="post"><input type="email" name="email" placeholder="you@example.com" required aria-label="Your email address"><input type="hidden" value="1" name="embed"><button type="submit">Add my name</button></form><p class="fine">No spam. Unsubscribe anytime.</p><div class="btns" style="justify-content:center"><a class="btn lite" href="https://buy.stripe.com/cNi14m89h7G93lpenX6EU03" target="_blank" rel="noopener">Donate</a></div>
 </div></div>
 <footer><div class="wrap">Make Beef American Again &middot; <a href="mailto:iantrottier2@gmail.com">Contact</a> &middot; <a href="https://buy.stripe.com/cNi14m89h7G93lpenX6EU03" target="_blank" rel="noopener">Donate</a></div></footer>
 </body>
