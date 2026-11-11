@@ -3,61 +3,115 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Make Beef American Again</title>
-<meta name="description" content="Promoting American beef, and the ranchers who raise it.">
-<meta property="og:title" content="Make Beef American Again">
-<meta property="og:description" content="Promoting American beef, and the ranchers who raise it.">
+<title>Make Beef American Again &mdash; Foreign Beef Is Losing Its Label</title>
+<meta name="description" content="Congress required country-of-origin identification for imported beef in 1930. USDA lets it disappear today. American cattle producers are asking the agency to enforce the law that already exists.">
+<meta property="og:title" content="Foreign Beef Is Losing Its Label in America">
+<meta property="og:description" content="Section 304 of the Tariff Act of 1930 requires it. USDA lets it disappear. A letter from American cattle producers.">
 <meta property="og:type" content="website">
 <style>
-:root{--red:#c8102e;--ink:#0a0a0a;--paper:#f6f3ee}
+:root{--ink:#12100e;--paper:#f8f5f0;--red:#a8101f;--navy:#16233a;--line:#ddd5c8;--muted:#5a554d}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
-header{border-bottom:3px solid var(--red);background:#fff}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:14px}
-.brand{font-weight:900;letter-spacing:.5px;text-transform:uppercase;font-size:14px}
-.brand span{color:var(--red)}
-.btn{background:var(--red);color:#fff;text-decoration:none;padding:11px 20px;border-radius:4px;font-weight:700;font-size:13px;display:inline-block;white-space:nowrap}
-.hero{padding:60px 0 54px;background:#fff;border-bottom:1px solid #e2ddd4}
-h1{font-size:clamp(31px,7vw,62px);line-height:1.02;letter-spacing:-1.5px;text-transform:uppercase;font-weight:900}
-h1 em{color:var(--red);font-style:normal}
-.lede{font-size:clamp(16px,3.6vw,20px);color:#3c3c3c;margin:20px 0 28px;max-width:640px}
-section{padding:54px 0}
-h2{font-size:clamp(21px,4.4vw,33px);text-transform:uppercase;letter-spacing:-.5px;margin-bottom:10px}
-.sub{color:#5a5a5a;max-width:620px;font-size:16px}
-.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-top:26px}
-.card{background:#fff;border:1px solid #e2ddd4;border-left:5px solid var(--red);padding:22px}
-.card h3{font-size:16px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
-.card p{color:#4a4a4a;font-size:15px}
-.cta{background:var(--ink);color:#fff;text-align:center;padding:58px 0}
-.cta h2{color:#fff}
-.cta p{color:#bdbdbd;max-width:560px;margin:12px auto 24px;font-size:16px}
-footer{background:#111;color:#8a8a8a;font-size:13px;padding:24px 0}
-footer a{color:var(--red);text-decoration:none}
+body{background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.62}
+.wrap{max-width:940px;margin:0 auto;padding:0 22px}
+header{background:var(--navy);color:#fff;border-bottom:4px solid var(--red)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:15px 0;gap:14px;flex-wrap:wrap}
+.brand{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:1.5px;text-transform:uppercase;font-size:14px}
+.brand span{color:#ff6b6b}
+.nav a.btn{font-family:Arial,Helvetica,sans-serif}
+.btn{background:var(--red);color:#fff;text-decoration:none;padding:11px 20px;border-radius:3px;font-weight:700;font-size:13px;display:inline-block}
+.hero{background:#fff;padding:64px 0 56px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);font-weight:700;margin-bottom:16px}
+h1{font-size:clamp(31px,6.4vw,58px);line-height:1.08;letter-spacing:-.8px;margin-bottom:20px}
+.lede{font-size:clamp(17px,3.6vw,21px);color:#3a352e;max-width:700px;margin-bottom:28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn.ghost{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+section{padding:56px 0}
+h2{font-size:clamp(22px,4.2vw,32px);line-height:1.15;margin-bottom:14px;letter-spacing:-.4px}
+.kicker{font-family:Arial,Helvetica,sans-serif;font-size:11.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--red);font-weight:700;margin-bottom:10px}
+ol.points{list-style:none;counter-reset:p;margin-top:26px}
+ol.points li{counter-increment:p;position:relative;padding-left:52px;margin-bottom:24px}
+ol.points li:before{content:counter(p);position:absolute;left:0;top:2px;width:32px;height:32px;background:var(--navy);color:#fff;border-radius:50%;font-family:Arial,sans-serif;font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center}
+ol.points strong{display:block;font-size:17px;margin-bottom:4px}
+ol.points span{color:#4a453d;font-size:16px}
+.notbox{background:#fff;border-left:5px solid var(--red);padding:22px 24px;margin-top:28px}
+.notbox h3{font-family:Arial,sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.notbox ul{list-style:none}
+.notbox li{padding-left:20px;position:relative;margin-bottom:6px;color:#4a453d}
+.notbox li:before{content:"\\2014";position:absolute;left:0;color:var(--red)}
+.letter{background:#fff;border:1px solid var(--line);padding:clamp(24px,5vw,52px);box-shadow:0 2px 18px rgba(0,0,0,.05)}
+.letter h2{font-size:clamp(20px,3.8vw,27px);margin-bottom:22px;padding-bottom:16px;border-bottom:2px solid var(--ink)}
+.letter p{margin-bottom:17px;font-size:17px;color:#26221d}
+.letter p.first:first-letter{font-size:52px;float:left;line-height:.82;padding:4px 10px 0 0;font-weight:700;color:var(--red)}
+.sig{background:#fff;border-top:3px solid var(--ink);margin-top:34px;padding:26px 0 0;font-family:Arial,sans-serif}
+.sig h3{font-size:11.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--red);margin-bottom:16px}
+.sig ul{list-style:none;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.sig li{font-size:16px;font-weight:700}
+.sig li span{font-weight:400;color:var(--muted);font-size:14px;display:block}
+.act{background:var(--navy);color:#fff;padding:58px 0;text-align:center}
+.act h2{color:#fff}
+.act p{color:#b9c2d0;max-width:620px;margin:0 auto 26px;font-size:17px;font-family:Arial,sans-serif}
+footer{background:#0e1826;color:#8a94a3;font-family:Arial,sans-serif;font-size:13px;padding:26px 0}
+footer a{color:#ff6b6b;text-decoration:none}
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
 <div class="brand">Make <span>Beef</span> American Again</div>
-<a class="btn" href="mailto:iantrottier2@gmail.com?subject=Keep%20me%20posted">Get Updates</a>
+<a class="btn" href="#letter">Read the Letter</a>
 </div></header>
 <div class="hero"><div class="wrap">
-<h1>Real beef. <em>American</em> ranchers.</h1>
-<p class="lede">American cattle ranchers raise beef under the tightest food-safety regime in the world. This site makes the case for it, and for the families who do the work.</p>
-<a class="btn" href="mailto:iantrottier2@gmail.com?subject=Keep%20me%20posted">Get Updates</a>
+<div class="eyebrow">A letter from American cattle producers</div>
+<h1>Foreign beef is losing its label in America.</h1>
+<p class="lede">Congress required country-of-origin identification for imported beef in 1930. USDA lets that identification disappear once the beef is repackaged here. We are asking the agency to enforce the law that already exists.</p>
+<div class="btns">
+<a class="btn" href="#letter">Read the letter</a>
+<a class="btn ghost" href="#action">Add your name</a>
+</div>
 </div></div>
 <section><div class="wrap">
-<h2>Why American Beef</h2>
-<p class="sub">Three things worth knowing before you buy imported beef to save a dollar.</p>
-<div class="grid">
-<div class="card"><h3>American Ranchers</h3><p>Family operations, many running for generations. Money spent on American beef stays in American communities.</p></div>
-<div class="card"><h3>Food Security</h3><p>A domestic beef supply is a national security asset. A country that imports its protein depends on someone else to feed it.</p></div>
-<div class="card"><h3>The Record</h3><p>We follow the policy, the trade deals and the regulations that decide whether American ranchers survive.</p></div>
-</div></div></section>
-<div class="cta"><div class="wrap">
-<h2>Stay with us</h2>
-<p>Beef news, rancher stories and the policy fights that matter. No noise.</p>
-<a class="btn" href="mailto:iantrottier2@gmail.com?subject=Keep%20me%20posted">Get Updates</a>
+<div class="kicker">The problem</div>
+<h2>Three things are true at once.</h2>
+<ol class="points">
+<li><strong>The law is already on the books.</strong><span>Section 304 of the Tariff Act of 1930 (19 U.S.C. &sect; 1304) requires imported products to identify their country of origin. USDA&#8217;s own rule, 9 CFR &sect; 327.14, requires imported beef to bear it.</span></li>
+<li><strong>The label disappears here.</strong><span>Once foreign beef is repackaged or processed in a federally inspected facility, that foreign identification can come off &mdash; and the beef competes against American product with no origin disclosed to the buyer.</span></li>
+<li><strong>Customs and USDA disagree.</strong><span>Customs and Border Protection holds that cutting, grinding or repackaging does not meet the test for substantial transformation. USDA allows the identification to drop anyway.</span></li>
+</ol>
+<div class="notbox">
+<h3>What this is not</h3>
+<ul>
+<li>Not a call for voluntary &#8220;Product of USA&#8221; labeling.</li>
+<li>Not an attempt to reinstate mandatory Country of Origin Labeling (COOL).</li>
+<li>Not a new law. It is a request to enforce the one we already have.</li>
+</ul>
+</div>
+</div></section>
+<section id="letter"><div class="wrap">
+<div class="kicker">The letter</div>
+<h2 style="margin-bottom:26px">The Disappearance of Foreign Beef Labeling in America</h2>
+<div class="letter">
+<p class="first">Every year, billions of pounds of foreign beef enter the United States, and every pound competes directly with American cattle producers. Congress addressed foreign-origin identification nearly a century ago through Section 304 of the Tariff Act of 1930 (19 U.S.C. &sect; 1304), requiring imported products, subject to statutory exceptions, to identify their country of origin for the ultimate purchaser.</p>
+<p>USDA&#8217;s own regulation, 9 CFR &sect; 327.14, specifically requires imported beef to bear its country of origin. Yet after entering the United States, foreign beef can be repackaged or processed in a federally inspected facility and lose that foreign identification. The result is foreign beef entering the American marketplace without its origin being disclosed to consumers, competing directly against beef produced by American cattlemen.</p>
+<p>9 CFR 327.14 was passed in 1974. Known as The Federal Meat Inspection Act. It addresses, helps define and re-inforces this very meat portion and description of the 1930 Tariff Act.</p>
+<p>At the center of this labeling issue is a serious conflict between federal trade law and USDA&#8217;s interpretation of its inspection authority. U.S. Customs and Border Protection applies the legal principle of substantial transformation to determine whether processing actually changes a foreign product&#8217;s country of origin.</p>
+<p>Simply cutting, grinding, or repackaging foreign beef does not automatically meet that standard. Yet USDA allows imported beef to lose its foreign-origin identification through domestic processing or repackaging, even when that processing does not constitute substantial transformation under Customs law.</p>
+<p>This is not a debate over voluntary &#8220;Product of USA&#8221; labeling or an attempt to reinstate mandatory Country of Origin Labeling (COOL). This is about enforcing existing federal law and challenging an administrative interpretation that has allowed foreign beef to lose its identity in the American marketplace. American cattle producers bear the economic consequences of competing against imported beef whose foreign identity can disappear before reaching consumers. Consumers lose the ability to make informed purchasing decisions, and American cattlemen lose the market distinction associated with producing beef domestically.
+ Congress established country-of-origin protections in 1930. The question today is why those protections are being undermined by USDA&#8217;s treatment of imported beef and why WE THE PEOPLE aim to hold the agency accountable.</p>
+<p>At the heart of this matter is the influence lobbying groups like the Brazilian conglomerate JBS meat packing corporation has on our domestic law makers.</p>
+<p>We will not allow a foreign agenda to globalize our otherwise prosperous national industry.</p>
+</div>
+<div class="sig">
+<h3>Signed by American cattle producers</h3>
+<ul>
+<li>Ian Trottier<span>Montana</span></li>
+<li>Patrick Robinette<span>North Carolina</span></li>
+<li>Curtis Martin<span>Oregon</span></li>
+</ul>
+</div>
+</div></section>
+<div class="act" id="action"><div class="wrap">
+<h2>Add your name</h2>
+<p>If you raise cattle, process beef, or simply want to know where your food comes from, add your name to this letter.</p>
+<a class="btn" href="mailto:iantrottier2@gmail.com?subject=Add%20my%20name%20to%20the%20beef%20labeling%20letter">Add your name</a>
 </div></div>
 <footer><div class="wrap">Make Beef American Again &middot; <a href="mailto:iantrottier2@gmail.com">Contact</a></div></footer>
 </body>
